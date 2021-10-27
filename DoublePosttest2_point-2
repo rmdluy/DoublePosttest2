@@ -1,0 +1,16 @@
+read = [
+  {"nama": "Achmad Ramuja", "jenis kelamin": "L", "berat badan": 57.2,},
+  {"nama": "Muhammad Nur", "jenis kelamin": "L", "berat badan": 58.1,},
+  {"nama": "Dina Firdania", "jenis kelamin": "P", "berat badan": 58.9,},
+  {"nama": "Yulianingsih", "jenis kelamin": "P", "berat badan": 60.1},
+  {"nama": "Ilham Ramadhan", "jenis kelamin": "L", "berat badan": 61.2},
+]
+print("==========================")
+print("DATA BERAT BADAN MAHASISWA")
+print("==========================")
+for read in read:
+  print(f"""
+1.Nama: {read["nama"]}
+2.Jenis Kelamin: {read["jenis kelamin"]}
+3.Berat Badan: {read["berat badan"]}
+  """)
