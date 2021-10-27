@@ -1,0 +1,8 @@
+#Program mencari berat badan Rata-rata, Minimal, dan Maksimal
+berat_badan = 55, 67.5, 57.2, 71.2, 59, 66.7, 56, 68, 69, 58
+
+print("=========================================")
+print(f"berat badan Rata-rata: {sum(berat_badan) / len(berat_badan)}")
+print(f"berat badan Minimal : {min(berat_badan)}")
+print(f"berat badan maksimal: {max(berat_badan)}")
+print("=========================================")
