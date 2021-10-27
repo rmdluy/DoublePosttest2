@@ -1,0 +1,13 @@
+read = {
+  "nama": "Ilham Ramadhan",
+  "nim": "2109106011",
+  "kelas": "Informatika A 2021",
+  }
+
+def print_data():
+  print(f"""
+Nama: {read["nama"]}
+NIM: {read["nim"]}
+Kelas: {read["kelas"]}
+  """)
+print_data()
